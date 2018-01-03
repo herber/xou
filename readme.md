@@ -75,7 +75,7 @@ document.body.appendChild(hello);
 
 This whole thing is powered by [`bel`](https://github.com/shama/bel) and [`nanomorph`](https://github.com/choojs/nanomorph) - two tiny but really awesome packages.
 
-This module is heavily inspired by [`yo-yo`](https://github.com/maxogden/yo-yo) - it basically does the same things but it's a bit bigger.
+This module is heavily inspired by [`yo-yo`](https://github.com/maxogden/yo-yo) - `xou` is basically a smaller alternative to `yo-yo`.
 
 Xou does not force you to use any specific module for styles or state management so you can use whatever modules you want or no other modules at all.
 
