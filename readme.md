@@ -1,0 +1,78 @@
+# Xou
+
+A tiny _library_ for building simple __component__ based UIs with template literals. It offers the same features as [`yo-yo`](https://github.com/maxogden/yo-yo) but is a bit smaller.
+
+Xou is powered by [`bel`](https://github.com/shama/bel) and [`nanomorph`](https://github.com/choojs/nanomorph) which both also power the [`choo`](https://github.com/choojs/choo) framework.
+
+## Features
+
+- Tagged template literals
+- Diffing on real dom nodes
+- Tiny
+
+## Install
+
+```
+$ npm install xou
+```
+
+## Usage
+
+```js
+const xou = require('xou');
+
+const time = xou`<span>Time: ${ (new Date()).toUTCString() }</span>`;
+
+document.body.appendChild(time);
+
+setInterval(() => {
+  const newTime = xou`<span>Time: ${ (new Date()).toUTCString() }</span>`;
+	xou.update(time, newTime);
+}, 1000);
+```
+
+## API
+
+### xou``
+
+A tagged template literal returning dom nodes
+
+#### Example
+
+```js
+const node = xou`<div>
+  <h1>Hello from xou</h1>
+  <p>Xou on <a href="https://github.com/herber/xou">github</a></p>
+</div>`;
+
+document.body.appendChild(node);
+```
+
+### xou.update(oldNode, newNode)
+
+`xout.update` diffs an old and a new dom node. The changes will be applied to `oldNode`.
+
+#### Example
+
+```js
+const hello = xou`<span>Hello!<button onclick=${ update }></button></span>`;
+
+const update = () => {
+  const hi = xou`<span>Hi!</span>`;
+  xou.update(hello, hi);
+}
+
+document.body.appendChild(hello);
+```
+
+## Other Modules
+
+This whole thing is powered by [`bel`](https://github.com/shama/bel) and [`nanomorph`](https://github.com/choojs/nanomorph) - two tiny but really awesome packages.
+
+This module is heavily inspired by [`yo-yo`](https://github.com/maxogden/yo-yo) - it basically does the same things but it's a bit bigger.
+
+Xou does not force you to use any specific module for styles or state management so you can use whatever modules you want or no other modules at all.
+
+## License
+
+MIT © [Tobias Herber](http://tobihrbr.com)
