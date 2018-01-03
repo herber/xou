@@ -65,6 +65,12 @@ const update = () => {
 document.body.appendChild(hello);
 ```
 
+## Examples
+
+- [Time](https://www.webpackbin.com/bins/-L1wiXzsEx4XuKe6ruPf)
+- [Input](https://www.webpackbin.com/bins/-L1wj0cRCCzTvHdWseTi)
+- [Todo list](https://www.webpackbin.com/bins/-L1wnYvBdijz8SUMzvvS)
+
 ## Other Modules
 
 This whole thing is powered by [`bel`](https://github.com/shama/bel) and [`nanomorph`](https://github.com/choojs/nanomorph) - two tiny but really awesome packages.
