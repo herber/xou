@@ -8,7 +8,7 @@ Xou is powered by [`bel`](https://github.com/shama/bel) and [`nanomorph`](https:
 
 - Tagged template literals
 - Diffing on real dom nodes
-- Tiny
+- Tiny at just [4kb](https://bundlephobia.com/result?p=xou)
 
 ## Install
 
