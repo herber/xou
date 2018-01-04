@@ -55,7 +55,7 @@ document.body.appendChild(node);
 #### Example
 
 ```js
-const hello = xou`<span>Hello!<button onclick=${ update }></button></span>`;
+const hello = xou`<span>Hello!<button onclick=${ () => { update(); } }>Update</button></span>`;
 
 const update = () => {
   const hi = xou`<span>Hi!</span>`;
@@ -67,6 +67,7 @@ document.body.appendChild(hello);
 
 ## Examples
 
+- [Greeting](https://www.webpackbin.com/bins/-L20tGtkIsPYlwjhliKs)
 - [Time](https://www.webpackbin.com/bins/-L1wiXzsEx4XuKe6ruPf)
 - [Input](https://www.webpackbin.com/bins/-L1wj0cRCCzTvHdWseTi)
 - [Todo list](https://www.webpackbin.com/bins/-L1wnYvBdijz8SUMzvvS)
