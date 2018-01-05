@@ -26,8 +26,8 @@ const time = xou`<span>Time: ${ (new Date()).toUTCString() }</span>`;
 document.body.appendChild(time);
 
 setInterval(() => {
-  const newTime = xou`<span>Time: ${ (new Date()).toUTCString() }</span>`;
-	xou.update(time, newTime);
+  const newTime = xou`<span>Time: ${ (new Date()).toUTCString() }</span>`;
+  xou.update(time, newTime);
 }, 1000);
 ```
 
