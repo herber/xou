@@ -50,7 +50,7 @@ document.body.appendChild(node);
 
 ### xou.update(oldNode, newNode)
 
-`xout.update` diffs an old and a new dom node. The changes will be applied to `oldNode`.
+`xou.update` diffs an old and a new dom node. The changes will be applied to `oldNode`.
 
 #### Example
 
