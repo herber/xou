@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  Xou is powered by [`bel`](https://github.com/shama/bel) and [`nanomorph`](https://github.com/choojs/nanomorph) which both also power the [`choo`](https://github.com/choojs/choo) framework.
+  Xou is powered by <a href="https://github.com/shama/bel">bel</a> and <a href="https://github.com/choojs/nanomorph">nanomorph</a> which both also power the <a href="https://github.com/choojs/choo">choo</a> framework.
 </p>
 
 ## Features
