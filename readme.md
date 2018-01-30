@@ -1,8 +1,14 @@
-# Xou
+<p align="center">
+  <img src="https://i.imgur.com/Jf9Bhzk.png" />
+</p>
 
-A tiny _library_ for building simple __component__ based UIs with template literals. It offers the same features as [`yo-yo`](https://github.com/maxogden/yo-yo) but is a bit smaller.
+<p align="center">
+  A tiny _library_ for building simple __component__ based UIs with template literals. It offers the same features as [`yo-yo`](https://github.com/maxogden/yo-yo) but is a bit smaller.
+</p>
 
-Xou is powered by [`bel`](https://github.com/shama/bel) and [`nanomorph`](https://github.com/choojs/nanomorph) which both also power the [`choo`](https://github.com/choojs/choo) framework.
+<p align="center">
+  Xou is powered by [`bel`](https://github.com/shama/bel) and [`nanomorph`](https://github.com/choojs/nanomorph) which both also power the [`choo`](https://github.com/choojs/choo) framework.
+</p>
 
 ## Features
 
