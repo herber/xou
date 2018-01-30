@@ -32,8 +32,8 @@ const time = xou`<span>Time: ${ (new Date()).toUTCString() }</span>`;
 document.body.appendChild(time);
 
 setInterval(() => {
-  const newTime = xou`<span>Time: ${ (new Date()).toUTCString() }</span>`;
-	xou.update(time, newTime);
+  const newTime = xou`<span>Time: ${ (new Date()).toUTCString() }</span>`;
+  xou.update(time, newTime);
 }, 1000);
 ```
 
@@ -56,12 +56,12 @@ document.body.appendChild(node);
 
 ### xou.update(oldNode, newNode)
 
-`xout.update` diffs an old and a new dom node. The changes will be applied to `oldNode`.
+`xou.update` diffs an old and a new dom node. The changes will be applied to `oldNode`.
 
 #### Example
 
 ```js
-const hello = xou`<span>Hello!<button onclick=${ update }></button></span>`;
+const hello = xou`<span>Hello!<button onclick=${ () => { update(); } }>Update</button></span>`;
 
 const update = () => {
   const hi = xou`<span>Hi!</span>`;
@@ -73,6 +73,7 @@ document.body.appendChild(hello);
 
 ## Examples
 
+- [Greeting](https://www.webpackbin.com/bins/-L20tGtkIsPYlwjhliKs)
 - [Time](https://www.webpackbin.com/bins/-L1wiXzsEx4XuKe6ruPf)
 - [Input](https://www.webpackbin.com/bins/-L1wj0cRCCzTvHdWseTi)
 - [Todo list](https://www.webpackbin.com/bins/-L1wnYvBdijz8SUMzvvS)
