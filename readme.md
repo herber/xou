@@ -83,6 +83,8 @@ This whole thing is powered by [`bel`](https://github.com/shama/bel) and [`nanom
 
 This module is heavily inspired by [`yo-yo`](https://github.com/maxogden/yo-yo) - `xou` is basically a smaller alternative to `yo-yo`.
 
+Xou pairs really well with [`vxv`](https://github.com/herber/vxv) for styles.
+
 Xou does not force you to use any specific module for styles or state management so you can use whatever modules you want or no other modules at all.
 
 ## License
