@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  A tiny _library_ for building simple __component__ based UIs with template literals. It offers the same features as [`yo-yo`](https://github.com/maxogden/yo-yo) but is a bit smaller.
+  A tiny <i>library</i> for building simple <b>component</b> based UIs with template literals. It offers the same features as <a href="https://github.com/maxogden/yo-yo">`yo-yo`</a> but is a bit smaller.
 </p>
 
 <p align="center">
