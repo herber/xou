@@ -1,0 +1,33 @@
+{
+  "name": "xou-utils",
+  "version": "1.0.0",
+  "description": "Utils for xou",
+  "license": "MIT",
+  "repository": "herber/xou",
+  "author": {
+    "name": "Tobias Herber",
+    "email": "tobihrbr@gmail.com",
+    "url": "tobihrbr.com"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+  },
+  "files": [
+    "index.js",
+    "lib"
+  ],
+  "keywords": [
+    "bel",
+    "dom",
+    "nanomorph",
+    "morph",
+    "diff",
+    "diffing"
+  ],
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}
