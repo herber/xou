@@ -1,0 +1,38 @@
+{
+  "name": "xou-browser",
+  "version": "1.0.0",
+  "description": "Xou in the browser",
+  "license": "MIT",
+  "repository": "herber/xou",
+  "author": {
+    "name": "Tobias Herber",
+    "email": "tobihrbr@gmail.com",
+    "url": "tobihrbr.com"
+  },
+  "main": "./lib/index.js",
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {},
+  "files": [
+    "lib",
+    "raw.js"
+  ],
+  "keywords": [
+    "bel",
+    "dom",
+    "nanomorph",
+    "morph",
+    "diff",
+    "diffing"
+  ],
+  "dependencies": {
+    "hyperx": "^2.4.0",
+    "xou-utils": "^1.0.0"
+  },
+  "devDependencies": {
+    "formatted": "^1.0.0",
+    "lerna": "^2.5.1"
+  },
+  "formatted": {}
+}
