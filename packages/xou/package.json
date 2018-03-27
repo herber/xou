@@ -1,0 +1,39 @@
+{
+  "name": "xou",
+  "version": "2.0.0",
+  "description": "A tiny library for component based UIs",
+  "license": "MIT",
+  "repository": "herber/xou",
+  "author": {
+    "name": "Tobias Herber",
+    "email": "tobihrbr@gmail.com",
+    "url": "tobihrbr.com"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+  },
+  "files": [
+    "index.js",
+    "raw.js"
+  ],
+  "keywords": [
+    "bel",
+    "dom",
+    "nanomorph",
+    "morph",
+    "diff",
+    "diffing"
+  ],
+  "dependencies": {
+    "xou-server": "^1.0.0",
+    "xou-browser": "^1.0.0",
+    "nanomorph": "^5.1.3"
+  },
+  "devDependencies": {
+    "formatted": "^1.0.0",
+    "lerna": "^2.5.1"
+  },
+  "formatted": {}
+}
