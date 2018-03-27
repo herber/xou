@@ -1,6 +1,6 @@
 {
   "name": "xou",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "A tiny library for component based UIs",
   "license": "MIT",
   "repository": "herber/xou",
@@ -27,7 +27,7 @@
   ],
   "dependencies": {
     "nanomorph": "^5.1.3",
-    "xou-browser": "^2.0.1",
+    "xou-browser": "^2.0.2",
     "xou-server": "^2.0.0"
   },
   "devDependencies": {
