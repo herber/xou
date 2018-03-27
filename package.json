@@ -12,7 +12,7 @@
     "node": ">=8"
   },
   "scripts": {
-    "test": "formatted && jest"
+    "test": "formatted && lerna bootstrap && jest"
   },
   "keywords": [
     "bel",
