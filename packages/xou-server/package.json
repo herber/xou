@@ -1,0 +1,36 @@
+{
+  "name": "xou-server",
+  "version": "1.0.0",
+  "description": "Xou on the server",
+  "license": "MIT",
+  "repository": "herber/xou",
+  "author": {
+    "name": "Tobias Herber",
+    "email": "tobihrbr@gmail.com",
+    "url": "tobihrbr.com"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {},
+  "files": [
+    "index.js",
+    "raw.js"
+  ],
+  "keywords": [
+    "bel",
+    "dom",
+    "nanomorph",
+    "morph",
+    "diff",
+    "diffing"
+  ],
+  "dependencies": {
+    "xou-utils": "^1.0.0"
+  },
+  "devDependencies": {
+    "formatted": "^1.0.0",
+    "lerna": "^2.5.1"
+  },
+  "formatted": {}
+}
