@@ -1,6 +1,6 @@
 {
   "name": "xou-server",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Xou on the server",
   "license": "MIT",
   "repository": "herber/xou",
@@ -26,7 +26,7 @@
     "diffing"
   ],
   "dependencies": {
-    "xou-utils": "^1.0.0"
+    "xou-utils": "^2.0.0"
   },
   "devDependencies": {
     "formatted": "^1.0.0",

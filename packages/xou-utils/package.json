@@ -1,6 +1,6 @@
 {
   "name": "xou-utils",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Utils for xou",
   "license": "MIT",
   "repository": "herber/xou",
@@ -12,8 +12,7 @@
   "engines": {
     "node": ">=8"
   },
-  "scripts": {
-  },
+  "scripts": {},
   "files": [
     "index.js",
     "lib"
@@ -25,9 +24,5 @@
     "morph",
     "diff",
     "diffing"
-  ],
-  "dependencies": {
-  },
-  "devDependencies": {
-  }
+  ]
 }

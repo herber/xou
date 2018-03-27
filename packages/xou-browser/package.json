@@ -1,6 +1,6 @@
 {
   "name": "xou-browser",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Xou in the browser",
   "license": "MIT",
   "repository": "herber/xou",
@@ -28,7 +28,7 @@
   ],
   "dependencies": {
     "hyperx": "^2.4.0",
-    "xou-utils": "^1.0.0"
+    "xou-utils": "^2.0.0"
   },
   "devDependencies": {
     "formatted": "^1.0.0",
