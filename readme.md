@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  Xou is powered by <a href="https://github.com/shama/bel">bel</a> and <a href="https://github.com/choojs/nanomorph">nanomorph</a> which both also power the <a href="https://github.com/choojs/choo">choo</a> framework.
+  Xou is powered by <a href="https://github.com/choojs/hyperx">hyperx</a> and <a href="https://github.com/choojs/nanomorph">nanomorph</a>.
 </p>
 
 ## Features
@@ -39,7 +39,7 @@ setInterval(() => {
 
 ## API
 
-### xou``
+### xou\`\`
 
 A tagged template literal returning dom nodes
 
@@ -71,22 +71,22 @@ const update = () => {
 document.body.appendChild(hello);
 ```
 
-## Examples
+<!-- ## Examples
+
+webpackbin.com does not exist anymore - new examples coming soon.
 
 - [Greeting](https://www.webpackbin.com/bins/-L20tGtkIsPYlwjhliKs)
 - [Time](https://www.webpackbin.com/bins/-L1wiXzsEx4XuKe6ruPf)
 - [Input](https://www.webpackbin.com/bins/-L1wj0cRCCzTvHdWseTi)
-- [Todo list](https://www.webpackbin.com/bins/-L1wnYvBdijz8SUMzvvS)
+- [Todo list](https://www.webpackbin.com/bins/-L1wnYvBdijz8SUMzvvS) -->
 
 ## Other Modules
 
-This whole thing is powered by [`bel`](https://github.com/shama/bel) and [`nanomorph`](https://github.com/choojs/nanomorph) - two tiny but really awesome packages.
+This whole thing is powered by [`hyperx`](https://github.com/choojs/hyperx) and [`nanomorph`](https://github.com/choojs/nanomorph) - two tiny but really great packages.
 
 This module is heavily inspired by [`yo-yo`](https://github.com/maxogden/yo-yo) - `xou` is basically a smaller alternative to `yo-yo`.
 
-Xou pairs really well with [`vxv`](https://github.com/herber/vxv) for styles.
-
-Xou does not force you to use any specific module for styles or state management so you can use whatever modules you want or no other modules at all.
+Xou pairs really well with [`vxv`](https://github.com/herber/vxv) for styles and [`nation`](https://github.com/herber/nation) for state management.
 
 ## License
 
