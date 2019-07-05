@@ -1020,8 +1020,8 @@ lodash.templatesettings@^4.0.0:
     lodash._reinterpolate "~3.0.0"
 
 lodash@^4.17.4, lodash@^4.2.1, lodash@^4.3.0:
-  version "4.17.5"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.5.tgz#99a92d65c0272debe8c96b6057bc8fbfa3bed511"
+  version "4.17.11"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.11.tgz#b39ea6229ef607ecd89e2c8df12536891cac9b8d"
 
 log-symbols@^2.1.0:
   version "2.2.0"
@@ -1863,6 +1863,10 @@ write-pkg@^3.1.0:
   dependencies:
     sort-keys "^2.0.0"
     write-json-file "^2.2.0"
+
+xou-utils@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/xou-utils/-/xou-utils-2.0.0.tgz#42dc4110d862b9e906bc66834213486d81092f39"
 
 xtend@~4.0.1:
   version "4.0.1"
